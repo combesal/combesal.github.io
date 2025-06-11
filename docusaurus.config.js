@@ -103,6 +103,11 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
+            to: '/faqs', // custom React page
+            label: 'FAQs',
+            position: 'left',
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           },

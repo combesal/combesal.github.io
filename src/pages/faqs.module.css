@@ -1,0 +1,130 @@
+/* Layout Containers */
+.container,
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem 0;
+}
+
+/* Grid Layout */
+.grid {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  flex: 0 0 200px;
+  border-right: 1px solid var(--ifm-color-emphasis-200);
+  padding-right: 1rem;
+  font-size: 0.9rem;
+  position: sticky;
+  top: 5rem;
+  height: fit-content;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.75rem;
+}
+
+/* Sidebar Buttons as Links */
+.categoryButton {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  text-decoration: none; /* No underline by default */
+}
+
+.categoryButton:hover,
+.categoryButton:focus {
+  text-decoration: underline; /* Underline on hover/focus */
+  outline: none;
+}
+
+.activeCategory {
+  font-weight: 600; /* Bold for selected */
+  text-decoration: none; /* No underline for selected */
+  color: var(--ifm-color-primary-dark);
+}
+
+/* Main Content Area */
+.content {
+  flex: 1;
+}
+
+/* FAQ Item Styling */
+.faqItem {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 1rem;
+}
+
+/* Summary (Question) */
+.faqItem summary {
+  position: relative;
+  padding-left: 1.75rem;
+  font-weight: 600;
+  font-size: 1.05rem;
+  cursor: pointer;
+  color: var(--ifm-heading-color);
+  list-style: none; /* Remove default marker in Firefox */
+  user-select: none;
+}
+
+/* Custom arrow – Right when collapsed */
+.faqItem summary::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-right: 2px solid var(--ifm-color-primary);
+  border-top: 2px solid var(--ifm-color-primary);
+  transform: rotate(45deg); /* Right arrow (▶) */
+  transition: transform 0.2s ease;
+  
+}
+
+/* Custom arrow – Down when expanded */
+.faqItem[open] summary::before {
+  transform: rotate(135deg); /* Down arrow (▼) */
+}
+
+.faqItem summary:hover,
+.faqItem summary:focus {
+  color: var(--ifm-color-primary);
+  outline: none;
+}
+
+/* Answer */
+.faqItem p {
+  margin-top: 0.75rem;
+  color: var(--ifm-font-color-base);
+  line-height: 1.6;
+}
+
+/* Open State (subtle background for answer) */
+.faqItem[open] p {
+  background-color: var(--ifm-background-color-highlight);
+  padding: 0.75rem;
+  border-radius: 4px;
+}
+
+/* Search Input */
+.searchInput {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 4px;
+}

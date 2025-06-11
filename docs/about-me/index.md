@@ -69,5 +69,5 @@ If any of the above sounds like a fit, I’d be happy to hear from you — conta
 A site can only show so much. If you’re curious about how I work in writing, research, and collaboration or want to discuss opportunities, I’d be happy to connect.
 
 📧 **Email:** alison.combes@hotmail.com  
-🌐 **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/alison-combes)  
+🌐 **LinkedIn:** [linkedin.com/in/alison-combes](https://www.linkedin.com/in/alison-combes)  
 🗂️ **Notion CV:** [View my CV](https://lc.cx/OC6VJh)

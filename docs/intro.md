@@ -21,5 +21,5 @@ If you're looking for a writer who can deliver concise, technically accurate doc
 ## Where to Start?
 
 - Curious about who I am? Head to the [About Me](../docs/about-me) section.  
-- Want to see samples? Visit my [Portfolio](../docs/portfolio).
-- Or dip into the [FAQs](../docs/faqs.md).
+- Want to see samples? Visit my [Portfolio](../docs/portfolio). _[still to be created]_
+- Or dip into the [FAQs](../faqs).
