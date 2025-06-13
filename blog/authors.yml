@@ -1,3 +1,14 @@
+alison:
+  name: Alison Combes
+  title: Technical Writer
+  url: https://linkedin.com/in/alison-combes
+  image: https://github.com/combesal.png
+  page: true
+  socials:
+    linkedin: alison-combes
+    github: combesal
+    CV: https://lc.cx/OC6VJh
+
 yangshun:
   name: Yangshun Tay
   title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
