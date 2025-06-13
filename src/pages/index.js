@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Alison COmbes - Technnical Writer.Clear, user-focused technical content, written to make complex ideas simple.
+      description="Alison Combes - Technnical Writer.Clear, user-focused technical content, written to make complex ideas simple.
 
 ">
       <HomepageHeader />

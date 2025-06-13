@@ -11,8 +11,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Alison Combes - Technical Writer',
-  tagline: 'Clear, user-focused technical content — written to make complex ideas simple.',
-  favicon: 'img/favicon.ico',
+  tagline: 'Complex ideas, clearly explained; user-first documentation that works.',
+  favicon: 'img/undraw_my-documents_ltqk.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -92,7 +92,7 @@ const config = {
         title: 'My Portfolio',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/undraw_my-documents_ltqk.svg',
         },
         items: [
           {

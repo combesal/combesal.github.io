@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Clear, User-Focused Content',
+    Svg: require('@site/static/img/undraw_user-flow_d1ya.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        I write clear, accessible documentation that helps users succeed, 
+        from onboarding to advanced tasks.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Efficient Collaboration',
+    Svg: require('@site/static/img/undraw_notebook_8ihb.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        I work closely with engineers, designers, and subject matter experts 
+        to create docs that reflect real user needs.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Content That Scales',
+    Svg: require('@site/static/img/undraw_body-text_b6qq.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        From style guides to structured content models, 
+        I help build documentation that's maintainable and scalable.
       </>
     ),
   },
@@ -53,6 +53,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <Heading as="h2" className="text--center">What I Bring to Your Team</Heading>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
