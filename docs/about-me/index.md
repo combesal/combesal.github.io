@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+slug: /about
+description: 'Freelance technical writer, Alison Combes, specializing in clear, user-focused documentation: user guides, onboarding content, developer docs, and internal tools.'
 ---
 
 # About Me
