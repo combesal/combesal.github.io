@@ -1,7 +1,10 @@
 ---
 title: Hard Work
 authors: [alison]
-tags: [career change, professional development, learning journey]
+tags: 
+    - career-change
+    - professional-development
+    - learning-journey
 ---
 
 ⏳ Given the amount of time we spend at work, it's no surprise that many people seek increased fulfilment in their professional lives by changing careers.

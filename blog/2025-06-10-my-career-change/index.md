@@ -2,7 +2,10 @@
 slug: career-change
 title: My Career Change Journey
 authors: [alison]
-tags: [career change, professional development, learning journey]
+tags: 
+    - career-change
+    - professional-development
+    - learning-journey
 ---
 
 🧭 I didn’t know where I was going, just that I had to go.

@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Alison Combes - Technical Writer',
   tagline: 'Complex ideas, clearly explained; user-first documentation that works.',
-  favicon: 'img/undraw_my-documents_ltqk.svg',
+  favicon: 'img/favicon.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -92,7 +92,7 @@ const config = {
         title: 'My Portfolio',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/undraw_my-documents_ltqk.svg',
+          src: 'img/favicon.svg',
         },
         items: [
           {
@@ -128,22 +128,26 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
+              {
+                label: 'FAQs',
+                to: '/docs/faqs',
+              },
             ],
           },
           {
-            title: 'Community',
+            title: 'Links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/alison-combes',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Notion CV',
+                href: 'https://lc.cx/OC6VJh',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Calendly',
+                href: 'https://calendly.com/alison-combes',
               },
             ],
           },
@@ -156,12 +160,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/combesal',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Portfolio. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Alison Combes. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
