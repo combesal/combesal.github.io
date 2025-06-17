@@ -107,10 +107,13 @@ const config = {
             label: 'FAQs',
             position: 'left',
           },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
+
+          // ** Note ** ncomment this section to add a language selection to the navbar
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
+
           {
             href: 'https://github.com/combesal',
             label: 'GitHub',
