@@ -1,3 +1,18 @@
+career-change:
+  label: 'career change'
+  permalink: /career-change
+  description: Career change tag description
+
+professional-development:
+  label: 'professional development'
+  permalink: /professional-dev
+  description: Professional development tag description
+
+learning-journey:
+  label: 'learning journey'
+  permalink: /learning-journey
+  description: Learning journey tag description
+
 facebook:
   label: Facebook
   permalink: /facebook
@@ -17,18 +32,3 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
-
-career-change:
-  label: 'career change'
-  permalink: /career-change
-  description: Career change tag description
-
-professional-development:
-  label: 'professional development'
-  permalink: /professional-dev
-  description: Professional development tag description
-
-learning-journey:
-  label: 'learning journey'
-  permalink: /learning-journey
-  description: Learning journey tag description
