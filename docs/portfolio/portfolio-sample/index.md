@@ -31,3 +31,4 @@ A live portfolio site that also serves as a working example of my documentation 
 A practical demonstration of how I apply clarity, structure, and usability to documentation: starting with my own.
 
 ## Screenshot
+![Docusaurus portfolio site - Alison Combes](./alison-combes-portfolio.jpeg)

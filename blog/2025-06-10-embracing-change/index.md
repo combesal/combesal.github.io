@@ -37,6 +37,6 @@ Looking back on these years of transition, and the moment I took that first step
 👉 Have you made a career change, or are you thinking about it?
 What have you learned through the process?
 
-![Docusaurus Plushie](./sailing-to-horizon.jpeg)
+![View from a small sailboat at sea during sunrise.](./sailing-to-horizon.jpeg)
 
 _Note: originally posted to LinkedIn_

@@ -36,6 +36,6 @@ Here’s a very quick insight into what I’ve been learning and how I’ve grow
 
 Overall, changing careers hasn’t only helped me gain technical skills, it’s also prepared me to face future challenges with confidence and determination. I’m excited to keep learning and growing in this dynamic field.
 
-![Docusaurus Plushie](./hard-work-quote.jpeg)
+![Sometimes the greatest thing to come out of all your hard work isn't what you get for it, but what you become for it. - Steve Maraboli](./hard-work-quote.jpeg)
 
 _Note: originally posted to LinkedIn_

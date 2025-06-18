@@ -37,6 +37,6 @@ It’s catching a new wind in your sails, but the instincts come with you.
 🚀 If you’re switching careers, remember: you’re not starting from scratch.
 And don’t forget your superpowers!
 
-![Docusaurus Plushie](./superpowers-unlocked.jpeg)
+![Illustration of a superhero figure symbolizing transferable skills in a career change.](./superpowers-unlocked.jpeg)
 
 _Note: originally posted to LinkedIn_
