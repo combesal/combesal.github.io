@@ -1,6 +1,6 @@
 ---
-slug: career-change
-title: My Career Change Journey
+slug: embracing-change
+title: Embracing Change
 authors: [alison]
 tags: 
     - career-change
