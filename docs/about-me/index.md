@@ -20,7 +20,7 @@ description: 'Freelance technical writer, Alison Combes, specializing in clear, 
 
 ## 🧩 How I Can Help
 
-I help teams work more efficiently and support multilingual audiences by creating clear, practical documentation — especially for non-native English speakers.
+I help teams work more efficiently and support multilingual audiences by creating clear, practical documentation, especially for non-native English speakers.
 
 The main ways I can help include:
 - ✅ Reducing support tickets with effective self-service content  
@@ -64,12 +64,12 @@ I'm currently open to new opportunities where I can grow as a technical writer a
 - ✅ Part-time or full-time roles (remote or hybrid)
 - ✅ Short-term documentation projects
 
-If any of the above sounds like a fit, I’d be happy to hear from you — contact details below 👇
+If any of the above sounds like a fit, I’d be happy to hear from you! Contact details below 👇
 
 ## 📬 Get in Touch
 
 A site can only show so much. If you’re curious about how I work in writing, research, and collaboration or want to discuss opportunities, I’d be happy to connect.
 
-📧 **Email:** alison.combes@hotmail.com  
+📧 **Email:** a.combes.contact@gmail.com  
 🌐 **LinkedIn:** [linkedin.com/in/alison-combes](https://www.linkedin.com/in/alison-combes)  
 🗂️ **Notion CV:** [View my CV](https://lc.cx/OC6VJh)
