@@ -133,7 +133,7 @@ const config = {
               },
               {
                 label: 'FAQs',
-                to: '/docs/faqs',
+                to: '/faqs',
               },
             ],
           },
