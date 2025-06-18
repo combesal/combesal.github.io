@@ -20,6 +20,6 @@ If you're looking for a writer who can deliver **concise**, technically accurate
 
 ## Where to Start?
 
-- Curious about who I am? Head to the [About Me](../docs/about) section.  
-- Want to see samples? Visit the [Portfolio](../docs/portfolio). _(work in progress)_
-- Or dip into the [FAQs](../faqs).
+- Curious about who I am? Head to the **[About Me](../docs/about)** section.  
+- Want to see samples? Visit the **[Portfolio](../docs/portfolio)**. _(work in progress)_
+- Or dip into the **[FAQs](../faqs)**.
