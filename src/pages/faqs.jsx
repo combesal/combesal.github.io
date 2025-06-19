@@ -21,7 +21,7 @@ export default function FAQs() {
 
   return (
     <Layout title="FAQs" description="Frequently Asked Questions">
-      <main className={clsx('container', styles.main)}>
+      <main className={clsx('customContainer', styles.main)}>
         <div className={styles.grid}>
 
           <button
