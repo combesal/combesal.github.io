@@ -40,18 +40,18 @@
   font: inherit;
   color: var(--ifm-color-primary);
   cursor: pointer;
-  text-decoration: none; /* No underline by default */
+  text-decoration: none;
 }
 
 .categoryButton:hover,
 .categoryButton:focus {
-  text-decoration: underline; /* Underline on hover/focus */
+  text-decoration: underline;
   outline: none;
 }
 
 .activeCategory {
-  font-weight: 600; /* Bold for selected */
-  text-decoration: none; /* No underline for selected */
+  font-weight: 600;
+  text-decoration: none;
   color: var(--ifm-color-primary-dark);
 }
 
@@ -75,7 +75,7 @@
   font-size: 1.05rem;
   cursor: pointer;
   color: var(--ifm-heading-color);
-  list-style: none; /* Remove default marker in Firefox */
+  list-style: none;
   user-select: none;
 }
 
@@ -89,14 +89,13 @@
   height: 0.5rem;
   border-right: 2px solid var(--ifm-color-primary);
   border-top: 2px solid var(--ifm-color-primary);
-  transform: rotate(45deg); /* Right arrow (▶) */
+  transform: rotate(45deg);
   transition: transform 0.2s ease;
-  
 }
 
 /* Custom arrow – Down when expanded */
 .faqItem[open] summary::before {
-  transform: rotate(135deg); /* Down arrow (▼) */
+  transform: rotate(135deg);
 }
 
 .faqItem summary:hover,
@@ -112,7 +111,6 @@
   line-height: 1.6;
 }
 
-/* Open State (subtle background for answer) */
 .faqItem[open] p {
   background-color: var(--ifm-background-color-highlight);
   padding: 0.75rem;
@@ -127,4 +125,46 @@
   margin-bottom: 2rem;
   border: 1px solid var(--ifm-color-emphasis-300);
   border-radius: 4px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    display: none;
+    position: static;
+    border: 1px solid var(--ifm-color-emphasis-200);
+    padding: 1rem;
+    background: var(--ifm-background-color);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+
+  .mobileVisible {
+    display: block;
+  }
+
+  .mobileToggle {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .toggleButton {
+    background: var(--ifm-color-primary);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+
+  .toggleButton:hover,
+  .toggleButton:focus {
+    background: var(--ifm-color-primary-dark);
+    outline: none;
+  }
 }

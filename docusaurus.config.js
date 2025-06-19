@@ -110,7 +110,7 @@ const config = {
             position: 'left',
           },
 
-          // ** Note ** ncomment this section to add a language selection to the navbar
+          // ** Note ** uncomment this section to add a language selection to the navbar
           // {
           //   type: 'localeDropdown',
           //   position: 'right',
