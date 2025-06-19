@@ -1,4 +1,23 @@
+import Link from '@docusaurus/Link';
+
+/**
+ * Each FAQ item must include a plain text version (key: answer) for filtering.
+ * Use the `jsx` field only when special formatting is needed (e.g. HTML or React components).
+ * 
+ * Example:
+ * {
+ *   category: "",
+ *   question: "",
+ *   answer: "",
+ *   jsx: (
+ *     <>
+ *       ...
+ *     </>
+ *   ),
+ * }
+ */
 const faqs = [
+
   {
     category: "Process & Collaboration",
     question: "What kind of projects do you take on?",
@@ -14,18 +33,19 @@ const faqs = [
   {
     category: "Process & Collaboration",
     question: "What’s your typical process?",
-    answer:
+    answer: "My process typically includes research, reviewing source materials, speaking with subject matter experts (SMEs), drafting in plain language, and refining based on feedback. More on this in My Approach.",
+    jsx:
       <>
-        My process typically includes research, reviewing source materials, speaking with subject matter experts (SMEs), drafting in plain language, and refining based on feedback. More on this in
-        <a href="docs/about#%EF%B8%8F-my-approach">My Approach</a>.
+        My process typically includes research, reviewing source materials, speaking with subject matter experts (SMEs), drafting in plain language, and refining based on feedback. More on this in <Link to="docs/about#my-approach">My Approach</Link>.
       </>,
   },
   {
     category: "Work Samples & Tools",
     question: "Do you have samples of your work?",
-    answer:
+    answer: "Due to confidentiality, I'm not able to share most client work publicly. This site serves as a hands-on sample, and I'm working on mock examples to showcase. See the roadmap for what’s planned.",
+    jsx:
       <>
-        Due to confidentiality, I'm not able to share most client work publicly. This site serves as a hands-on sample, and I'm working on mock examples to showcase. See the <a href="docs/roadmap">roadmap</a> for what’s planned.
+        Due to confidentiality, I'm not able to share most client work publicly. This site serves as a hands-on sample, and I'm working on mock examples to showcase. See the <Link to="docs/roadmap">roadmap</Link> for what’s planned.
       </>
   },
   {
@@ -37,9 +57,10 @@ const faqs = [
   {
     category: "Availability",
     question: "Are you available for freelance or contract work?",
-    answer:
+    answer: "Yes. I'm open to freelance, contract, and permanent opportunities. You can read more about my current availability in this section.",
+    jsx:
       <>
-        Yes. I'm open to freelance, contract, and permanent opportunities. You can read more about my current availability in <a href="docs/about#-availability">this section</a>.
+        Yes. I'm open to freelance, contract, and permanent opportunities. You can read more about my current availability in <Link to="docs/about#availability">this section</Link>.
       </>
   },
   {
@@ -63,7 +84,8 @@ const faqs = [
   {
     category: "Experience",
     question: "What industries have you worked in?",
-    answer:
+    answer: "I have a varied background, most recently in IT (web development and tech support). I've also worked in non-profits (associations 1901 in France), hospitality, and sports e-commerce.",
+    jsx:
       <>
         I have a varied background, most recently in IT (web development and tech support). I've also worked in non-profits (<em>associations 1901</em> in France), hospitality, and sports e-commerce.
       </>

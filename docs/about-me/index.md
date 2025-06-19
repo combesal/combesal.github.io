@@ -6,7 +6,7 @@ description: 'Freelance technical writer, Alison Combes, specializing in clear, 
 
 # About Me
 
-## 👋 Hi There
+## 👋 Hi There {#hi-there}
 
 **I'm a freelance technical writer who makes complex tools easier to understand.**
 
@@ -18,7 +18,7 @@ description: 'Freelance technical writer, Alison Combes, specializing in clear, 
 
 📘 *Documentation isn’t a side note. It’s how your product speaks.*
 
-## 🧩 How I Can Help
+## 🧩 How I Can Help {#how-i-can-help}
 
 I help teams work more efficiently and support multilingual audiences by creating clear, practical documentation, especially for non-native English speakers.
 
@@ -27,7 +27,7 @@ The main ways I can help include:
 - ✅ Streamlining employee onboarding through structured guides  
 - ✅ Driving feature adoption with clear, actionable walkthroughs  
 
-## ✍️ My Approach
+## ✍️ My Approach {#my-approach}
 
 I’ve developed a writing workflow that includes:
 
@@ -37,13 +37,13 @@ I’ve developed a writing workflow that includes:
 - Reviewing and revising based on collaborative input
 - Using and adapting to documentation tools such as Confluence, GitHub, and CMS platforms
 
-## 💼 Relevant Background
+## 💼 Relevant Background {#relevant-background}
 While I'm early in my technical writing career, my background in **IT support**, **web development**, and **translation** has given me strong foundations in technical communication. These roles taught me how to understand complex systems, **communicate across teams**, and write for a **global audience**.
 
 I recently completed a short-term tech writing role, contributing to **internal documentation** and onboarding materials.
 
 
-## 🛠️ Tools & Skills
+## 🛠️ Tools & Skills {#tools-skills}
 **Documentation & Collaboration**  
 - Confluence · Google Docs · Notion · Jira  
 
@@ -55,7 +55,7 @@ I recently completed a short-term tech writing role, contributing to **internal 
 - **Code**: HTML/CSS · JavaScript · PHP · Java
 
 
-## 📌 Availability
+## 📌 Availability {#availability}
 
 I'm currently open to new opportunities where I can grow as a technical writer and contribute to high-quality documentation efforts.
 
@@ -66,7 +66,7 @@ I'm currently open to new opportunities where I can grow as a technical writer a
 
 If any of the above sounds like a fit, I’d be happy to hear from you! Contact details below 👇
 
-## 📬 Get in Touch
+## 📬 Get in Touch {#get-in-touch}
 
 A site can only show so much. If you’re curious about how I work in writing, research, and collaboration or want to discuss opportunities, I’d be happy to connect.
 

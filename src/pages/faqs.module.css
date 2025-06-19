@@ -21,18 +21,21 @@
   position: sticky;
   top: 5rem;
   height: fit-content;
+  background: var(--ifm-background-surface); /* ensures visibility over content */
+  z-index: 1;
 }
 
 .sidebar ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .sidebar li {
   margin-bottom: 0.75rem;
 }
 
-/* Sidebar Buttons as Links */
+/* Sidebar Buttons */
 .categoryButton {
   background: none;
   border: none;
@@ -55,7 +58,7 @@
   color: var(--ifm-color-primary-dark);
 }
 
-/* Main Content Area */
+/* Main Content */
 .content {
   flex: 1;
 }
@@ -67,7 +70,7 @@
   padding-bottom: 1rem;
 }
 
-/* Summary (Question) */
+/* Question */
 .faqItem summary {
   position: relative;
   padding-left: 1.75rem;
@@ -79,7 +82,7 @@
   user-select: none;
 }
 
-/* Custom arrow – Right when collapsed */
+/* Custom Arrow (▶ when collapsed) */
 .faqItem summary::before {
   content: '';
   position: absolute;
@@ -93,7 +96,7 @@
   transition: transform 0.2s ease;
 }
 
-/* Custom arrow – Down when expanded */
+/* Arrow (▼ when expanded) */
 .faqItem[open] summary::before {
   transform: rotate(135deg);
 }
@@ -111,6 +114,7 @@
   line-height: 1.6;
 }
 
+/* Open State Answer */
 .faqItem[open] p {
   background-color: var(--ifm-background-color-highlight);
   padding: 0.75rem;
@@ -127,44 +131,43 @@
   border-radius: 4px;
 }
 
-/* Mobile Styles */
+/* Toggle Button for Mobile */
+.toggleButton {
+  display: none;
+  margin-bottom: 1rem;
+  background: var(--ifm-color-primary);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* ----------------------------- */
+/* 📱 Responsive: Mobile Styles */
+/* ----------------------------- */
 @media (max-width: 768px) {
   .grid {
     flex-direction: column;
   }
 
+  .toggleButton {
+    display: block;
+  }
+
   .sidebar {
     display: none;
-    position: static;
-    border: 1px solid var(--ifm-color-emphasis-200);
-    padding: 1rem;
-    background: var(--ifm-background-color);
-    border-radius: 4px;
-    margin-bottom: 1rem;
+    border-right: none;
+    border-bottom: 1px solid var(--ifm-color-emphasis-200);
+    padding-bottom: 1rem;
+    padding-right: 0;
+    position: relative;
+    top: 0;
+    background: var(--ifm-background-surface);
   }
 
-  .mobileVisible {
+  .sidebar.sidebarVisible {
     display: block;
-  }
-
-  .mobileToggle {
-    display: block;
-    margin-bottom: 1rem;
-  }
-
-  .toggleButton {
-    background: var(--ifm-color-primary);
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.95rem;
-  }
-
-  .toggleButton:hover,
-  .toggleButton:focus {
-    background: var(--ifm-color-primary-dark);
-    outline: none;
   }
 }
