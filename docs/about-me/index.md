@@ -16,20 +16,24 @@ description: 'Freelance technical writer, Alison Combes, specializing in clear, 
 
 ---
 
-📘 *Documentation isn’t a side note. It’s how your product speaks.*
+📘 **Documentation isn’t a side note. It’s how your product speaks.**
+
+---
 
 ## 🧩 How I Can Help {#how-i-can-help}
 
 I help teams work more efficiently and support multilingual audiences by creating clear, practical documentation, especially for non-native English speakers.
 
 The main ways I can help include:
-- ✅ Reducing support tickets with effective self-service content  
-- ✅ Streamlining employee onboarding through structured guides  
-- ✅ Driving feature adoption with clear, actionable walkthroughs  
+- ✅ **Reducing support tickets** with effective self-service content  
+- ✅ **Streamlining employee onboarding** through structured guides  
+- ✅ **Driving feature adoption** with clear, actionable walkthroughs  
 
 ## ✍️ My Approach {#my-approach}
 
-I’ve developed a writing workflow that includes:
+*You know your product best*. I learn how it works, ask the right questions, and turn it into clear, useful documentation. Research lays the foundation. Clarity makes it work.
+
+I’ve developed a **writing workflow** that includes:
 
 - Research and source review
 - Collaborating with subject matter experts
@@ -57,7 +61,7 @@ I recently completed a short-term tech writing role, contributing to **internal 
 
 ## 📌 Availability {#availability}
 
-I'm currently open to new opportunities where I can grow as a technical writer and contribute to high-quality documentation efforts.
+I’m currently open to new projects and ready to support teams with clear, practical documentation. That includes building from scratch, refining existing content, or scaling for new audiences.
 
 **I'm available for:**
 - ✅ Freelance or contract work

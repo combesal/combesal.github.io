@@ -91,7 +91,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/social-card.jpeg',
       navbar: {
-        title: 'My Portfolio',
+        title: 'Alison Combes',
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon.svg',
