@@ -13,6 +13,16 @@ learning-journey:
   permalink: /learning-journey
   description: Learning journey tag description
 
+technical-writing:
+  label: 'technical writing'
+  permalink: /technical-writing
+  description: Technical writing tag description
+
+content-design:
+  label: 'content design'
+  permalink: /content-design
+  description: Content design tag description
+
 facebook:
   label: Facebook
   permalink: /facebook
