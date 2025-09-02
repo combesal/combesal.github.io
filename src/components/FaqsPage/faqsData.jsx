@@ -22,17 +22,19 @@ const faqs = [
     category: "Process & Collaboration",
     question: "What kind of projects do you take on?",
     answer:
-      "I work on documentation for developer tools, internal systems, onboarding materials, feature guides, and support content. I enjoy solving complex communication challenges to create clear, user-friendly writing.",
+      "I typically work on documentation for developer tools, internal systems, onboarding materials, feature guides, and support content. I enjoy solving complex communication challenges to create clear, user-friendly writing.",
   },
   {
     category: "Process & Collaboration",
     question: "Can you help organize or restructure existing content?",
     answer:
-      "Certainly. If you have existing content that needs reworking, I’m happy to help clarify, restructure, and improve the user experience.",
+      "Certainly. If you have existing content that needs reworking, I’m happy to help clarify, restructure, and improve the user experience. Why not set up a call so we can discuss your needs.",
+      jsx:
+      <>Certainly. If you have existing content that needs reworking, I’m happy to help clarify, restructure, and improve the user experience. Why not <Link to='https://calendly.com/alison-combes/connect'>set up a call</Link> so we can discuss your needs.</>,
   },
   {
     category: "Process & Collaboration",
-    question: "What’s your typical process?",
+    question: "What’s your usual process?",
     answer: "My process typically includes research, reviewing source materials, speaking with subject matter experts (SMEs), drafting in plain language, and refining based on feedback. More on this in My Approach.",
     jsx:
       <>
@@ -42,17 +44,17 @@ const faqs = [
   {
     category: "Work Samples & Tools",
     question: "Do you have samples of your work?",
-    answer: "Due to confidentiality, I'm not able to share most client work publicly. This site serves as a hands-on sample, and I'm working on mock examples to showcase. See the roadmap for what’s planned.",
+    answer: "Due to confidentiality, I'm not able to share most client work publicly. However, this site serves as a hands-on sample, and I'm working on mock examples to showcase. See the roadmap for what’s planned.",
     jsx:
       <>
-        Due to confidentiality, I'm not able to share most client work publicly. This site serves as a hands-on sample, and I'm working on mock examples to showcase. See the <Link to="docs/roadmap">roadmap</Link> for what’s planned.
+        Due to confidentiality, I'm not able to share most client work publicly. However, this site serves as a hands-on sample, and I'm working on mock examples to showcase. See the <Link to="docs/roadmap">roadmap</Link> for what’s planned.
       </>
   },
   {
     category: "Work Samples & Tools",
     question: "What tools do you use?",
     answer:
-      "I work with Confluence, Markdown, Git, Jira, Google Docs, and Docusaurus. I also adapt quickly to new tools and workflows.",
+      "I usually work with Confluence, Markdown, Git, Jira, Google Docs, and Docusaurus. I also adapt quickly to new tools and workflows.",
   },
   {
     category: "Availability",
@@ -65,7 +67,7 @@ const faqs = [
   },
   {
     category: "Availability",
-    question: "Where are you based? Do you work remotely?",
+    question: "Where are you based? Do you work remotely or on site?",
     answer:
       "I'm based in the South of France, and I prefer fully remote roles. That said, I'm happy to consider hybrid options if they suit your team.",
   },
