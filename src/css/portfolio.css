@@ -1,0 +1,28 @@
+/* static/css/portfolio.css */
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  height: 100%;
+  transition: transform 0.2s;
+  text-decoration: none; /* remove underline */
+  color: inherit; /* text keeps normal color */
+  cursor: pointer; /* shows it’s clickable */
+}
+
+.portfolio-card:hover {
+  transform: scale(1.03);
+}
+
+.portfolio-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.portfolio-card h3 {
+  margin-top: 1rem;
+}

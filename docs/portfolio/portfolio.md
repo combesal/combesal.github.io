@@ -1,11 +1,12 @@
 ---
-id: docusaurus-portfolio
-title: Portfolio
-slug: /portfolio
+id: portfolio-site
+sidebar_position: 1
+title: Portfolio Site
+slug: /portfolio/portfolio-site
 description: A portfolio site built to demonstrate my approach to clear, scalable documentation.
 ---
 
-# Docusaurus Portfolio
+# Docusaurus Portfolio Site
 
 - **Project:** Technical Writing Portfolio
 - **Type:** Personal Project
@@ -31,4 +32,4 @@ A live portfolio site that also serves as a working example of my documentation 
 A practical demonstration of how I apply clarity, structure, and usability to documentation: starting with my own.
 
 ## Screenshot
-![Docusaurus portfolio site - Alison Combes](./alison-combes-portfolio.jpeg)
+![Docusaurus portfolio site - Alison Combes](../../static/img/alison-combes-portfolio.jpeg)

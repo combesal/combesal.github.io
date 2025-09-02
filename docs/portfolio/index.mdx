@@ -1,0 +1,34 @@
+---
+id: portfolio
+title: Portfolio
+# slug: /portfolio
+description: A portfolio site built to demonstrate my approach to clear, scalable documentation.
+---
+
+import Link from '@docusaurus/Link';
+import '../../src/css/portfolio.css';
+
+In this section you’ll find samples of my work, including documentation projects and audits that showcase clarity, structure, and problem-solving.  
+
+Click a sample to explore in detail.
+
+
+<div className="row">
+
+  <div className="col col--6 col--12--sm">
+    <Link to="/docs/portfolio/presentation" className="portfolio-card">
+      <img src="/img/alison-combes-portfolio.jpeg" alt="Portfolio Site" />
+      <h3>Portfolio Site</h3>
+      <p>A documentation site built with Docusaurus showcasing my work and design approach.</p>
+    </Link>
+  </div>
+
+  <div className="col col--6 col--12--sm">
+    <Link to="/docs/portfolio/audit-case" className="portfolio-card">
+      <img src="/img/docs-audit-screenshot.png" alt="Docs Audit" />
+      <h3>Demo Docs Audit</h3>
+      <p>A case study analyzing documentation usability, clarity, and structure with recommendations.</p>
+    </Link>
+  </div>
+
+</div>
