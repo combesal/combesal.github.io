@@ -2,19 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://combesal.github.io/fr/blog</id>
     <title>Alison Combes - Technical Writer Blog</title>
-    <updated>2025-07-15T00:00:00.000Z</updated>
+    <updated>2025-10-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://combesal.github.io/fr/blog"/>
     <subtitle>Alison Combes - Technical Writer Blog</subtitle>
     <icon>https://combesal.github.io/fr/img/favicon.svg</icon>
     <entry>
-        <title type="html"><![CDATA[Clear Communication Matters]]></title>
+        <title type="html"><![CDATA[Behind the build: creating my Technical Writing Portfolio]]></title>
+        <id>https://combesal.github.io/fr/blog/behind-the-build-portfolio</id>
+        <link href="https://combesal.github.io/fr/blog/behind-the-build-portfolio"/>
+        <updated>2025-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How I built my technical writing portfolio using Docusaurus, React, and docs-as-code principles to showcase both writing and technical skills.]]></summary>
+        <content type="html"><![CDATA[<p>When I decided to build my technical writing portfolio, I wanted it to do more than just host samples. I wanted it to reflect how I think about documentation: <strong>structured, clear, and built with the same tools developers use</strong>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="choosing-the-tools">Choosing the Tools<a href="https://combesal.github.io/fr/blog/behind-the-build-portfolio#choosing-the-tools" class="hash-link" aria-label="Lien direct vers Choosing the Tools" title="Lien direct vers Choosing the Tools">​</a></h2>
+<p>I built the site with <strong>Docusaurus</strong>, a React-based static site generator. Since I already had experience with React and Markdown, it felt like a natural fit. The framework gave me full control over layout and structure while keeping the writing process simple and efficient.</p>
+<p>I wanted the portfolio to work like a real documentation project: <strong>modular, easy to update, and reader-friendly</strong>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="designing-the-structure">Designing the Structure<a href="https://combesal.github.io/fr/blog/behind-the-build-portfolio#designing-the-structure" class="hash-link" aria-label="Lien direct vers Designing the Structure" title="Lien direct vers Designing the Structure">​</a></h2>
+<p>The site is organized like a typical documentation set:</p>
+<ul>
+<li>An <strong>Introduction</strong> to outline the project's purpose</li>
+<li>An <strong>About Me</strong> section to explain my background and writing approach</li>
+<li>A <strong>Portfolio</strong> area for samples and future projects</li>
+<li>A <strong>FAQs</strong> page built with React for interactivity and accessibility</li>
+</ul>
+<p>This layout keeps navigation simple and shows how I think about structure and hierarchy, which are key parts of any documentation project.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="building-for-clarity-and-usability">Building for Clarity and Usability<a href="https://combesal.github.io/fr/blog/behind-the-build-portfolio#building-for-clarity-and-usability" class="hash-link" aria-label="Lien direct vers Building for Clarity and Usability" title="Lien direct vers Building for Clarity and Usability">​</a></h2>
+<p>Docusaurus handles most of the design defaults, but I made some adjustments to improve readability and responsiveness, while adding a little of my own style. I focused on <strong>spacing, typography, and consistent tone</strong> across all sections.</p>
+<p>For the FAQs, I built a small React component that allows users to filter questions by category and search by keyword. It's a compact example of how <strong>interactivity can also support clarity</strong>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="publishing-the-site">Publishing the Site<a href="https://combesal.github.io/fr/blog/behind-the-build-portfolio#publishing-the-site" class="hash-link" aria-label="Lien direct vers Publishing the Site" title="Lien direct vers Publishing the Site">​</a></h2>
+<p>The site is published via <strong>GitHub Pages</strong>, which keeps updates quick and version-controlled. I wanted to keep the process as close as possible to a real documentation workflow and make use of my web development background.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-i-learned">What I Learned<a href="https://combesal.github.io/fr/blog/behind-the-build-portfolio#what-i-learned" class="hash-link" aria-label="Lien direct vers What I Learned" title="Lien direct vers What I Learned">​</a></h2>
+<p>This project reinforced how much I enjoy combining <strong>writing, structure, and technical problem-solving</strong>. It also reminded me that documentation is never just text: it's <strong>design, clarity, and empathy for the reader</strong>, all working together.</p>
+<hr>
+<p>If you're interested in how technical writing and development can work together, take a look at the portfolio and connect with me through LinkedIn or Calendly.</p>
+<p>👉 <strong><a href="https://combesal.github.io/fr/docs/portfolio">View Portfolio</a></strong> | <strong><a href="https://www.linkedin.com/in/alison-combes" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a></strong> | <strong><a href="https://calendly.com/alison-combes/connect" target="_blank" rel="noopener noreferrer">Schedule a call</a></strong></p>]]></content>
+        <author>
+            <name>Alison Combes</name>
+            <uri>https://linkedin.com/in/alison-combes</uri>
+        </author>
+        <category label="technical writing" term="technical writing"/>
+        <category label="docs-as-code" term="docs-as-code"/>
+        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="documentation" term="documentation"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clear communication matters… even for a barbecue!]]></title>
         <id>https://combesal.github.io/fr/blog/clear-communication</id>
         <link href="https://combesal.github.io/fr/blog/clear-communication"/>
         <updated>2025-07-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[🔧 Clear communication matters… even for a barbecue!]]></summary>
-        <content type="html"><![CDATA[<p>🔧 Clear communication matters… even for a barbecue!</p>
-<p>Recently, I found myself assembling a new barbecue that came with just a set of unclear, visual-only instructions.</p>
+        <summary type="html"><![CDATA[Recently, I found myself assembling a new barbecue that came with just a set of unclear, visual-only instructions.]]></summary>
+        <content type="html"><![CDATA[<p>Recently, I found myself assembling a new barbecue that came with just a set of unclear, visual-only instructions.</p>
 <p>As a technical writer, I’m used to creating materials that clarify complex information, but this experience reminded me just how crucial clear guidance really is… especially when it’s missing.</p>
 <p>My husband and I have very different approaches to problem-solving. I tend to carefully analyze instructions before diving in, while he prefers to jump straight in and figure things out as he goes. With such confusing visuals, those differences became even more apparent.</p>
 <p>This little project turned into an informal exercise in technical communication and teamwork. I helped interpret the ambiguous images, bridging the gap between unclear instructions and practical action.</p>
