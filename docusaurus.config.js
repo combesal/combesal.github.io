@@ -64,6 +64,8 @@ const config = {
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -101,7 +103,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Overview',
+            label: 'Portfolio',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -134,7 +136,7 @@ const config = {
                 to: '/docs/about',
               },
               {
-                label: 'Overview',
+                label: 'Portfolio',
                 to: '/docs/intro',
               },
               {
