@@ -22,23 +22,18 @@ content-design:
   label: 'content design'
   permalink: /content-design
   description: Content design tag description
+  
+docs-as-code:
+  label: docs-as-code
+  permalink: /docs-as-code
+  description: Docs as Code tag description
 
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+documentation:
+  label: documentation
+  permalink: /documentation
+  description: Documentation tag description
 
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus
   description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description

@@ -1,14 +1,13 @@
 ---
 slug: clear-communication
-title: Clear Communication Matters
+title: Clear communication matters… even for a barbecue!
+sidebar_label: Clear Communication Matters
 authors: [alison]
 tags: 
     - technical-writing
     - professional-development
     - learning-journey
 ---
-
-🔧 Clear communication matters… even for a barbecue!
 
 Recently, I found myself assembling a new barbecue that came with just a set of unclear, visual-only instructions.
 
