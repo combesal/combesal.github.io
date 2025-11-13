@@ -4,10 +4,39 @@
         <title>Alison Combes - Technical Writer Blog</title>
         <link>https://combesal.github.io/blog</link>
         <description>Alison Combes - Technical Writer Blog</description>
-        <lastBuildDate>Wed, 29 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Nov 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Consistency Beats Perfection]]></title>
+            <link>https://combesal.github.io/blog/consistency-beats-perfection</link>
+            <guid>https://combesal.github.io/blog/consistency-beats-perfection</guid>
+            <pubDate>Thu, 13 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover why consistency matters more than perfection. Learn how small, regular actions can build habits, improve skills, and lead to lasting progress in tech writing and beyond.]]></description>
+            <content:encoded><![CDATA[<p>In this post, I share how focusing on steady, repeatable actions has helped me grow as a tech writer. Progress often comes from small steps, not perfect starts.</p>
+<p>It’s simple, but this is the best advice I’ve received recently: <strong>consistency beats perfection</strong>.</p>
+<p>It wasn’t even related to work; it was about exercising regularly. This can be applied to any area of life though: <strong>small, consistent actions build habits</strong> and eventually lead to meaningful results.</p>
+<p>I’m a bit of a perfectionist. Sometimes starting is hard because I want things to be perfect or overthink the steps I need to take. Focusing on consistency rather than perfection helps me make progress, even if I don’t get it just right the first time.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-im-applying-it">How I’m applying it<a href="https://combesal.github.io/blog/consistency-beats-perfection#how-im-applying-it" class="hash-link" aria-label="Direct link to How I’m applying it" title="Direct link to How I’m applying it">​</a></h2>
+<p>To apply this to my work as a tech writer, I’m working on making certain habits more consistent, including:</p>
+<ul>
+<li>Reviewing user guides and other documentation to see what works and what doesn’t</li>
+<li>Watching training videos or webinar replays regularly</li>
+<li>Interacting more in Slack/Discord channels</li>
+<li>Writing posts for LinkedIn and my blog to practise and develop my writing</li>
+<li>Reading tech news almost daily to stay informed</li>
+</ul>
+<p>I’m just starting to make these habits stick. This post itself is part of putting consistency into action.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-im-learning">What I’m learning<a href="https://combesal.github.io/blog/consistency-beats-perfection#what-im-learning" class="hash-link" aria-label="Direct link to What I’m learning" title="Direct link to What I’m learning">​</a></h2>
+<p>Over time, these small, steady steps help me strengthen key skills: understanding user needs, spotting clarity and structure in documentation, and practising concise, user-focused writing.</p>
+<p>Progress builds gradually. You might not notice it each day, but after a month or two, the improvement becomes clear. That progress is its own reward and a reminder that steady effort pays off.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-final-thought">A final thought<a href="https://combesal.github.io/blog/consistency-beats-perfection#a-final-thought" class="hash-link" aria-label="Direct link to A final thought" title="Direct link to A final thought">​</a></h2>
+<p>Finally, the key to consistency is <strong>persistence</strong>. Missing a day or a week isn’t a failure. What matters is always returning to your routine and continuing the work.</p>]]></content:encoded>
+            <category>technical writing</category>
+            <category>professional development</category>
+            <category>learning journey</category>
+        </item>
         <item>
             <title><![CDATA[Behind the build: creating my Technical Writing Portfolio]]></title>
             <link>https://combesal.github.io/blog/behind-the-build-portfolio</link>
