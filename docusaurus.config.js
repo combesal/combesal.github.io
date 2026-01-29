@@ -11,7 +11,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Alison Combes - Technical Writer',
-  tagline: 'Complex ideas, clearly explained; user-first documentation that works.',
+  tagline: 'Documentation that helps SaaS users succeed without flooding your support team.',
   favicon: 'img/favicon.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -56,15 +56,18 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        docs: false,
+        // {
+        // sidebarPath: './sidebars.js', // removed to add separate sidebar plugins (portfolio/about)
+        
+        // Please change this to your repo.
+        // Remove this to remove the "edit this page" links.
+        // editUrl:
+        //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
         blog: {
           blogSidebarTitle: 'All posts',
+          blogDescription: 'Insights on technical writing, documentation best practices, and working with developer tools. Tips for SaaS startups and documentation teams.',
           blogSidebarCount: 'ALL',
           showReadingTime: true,
           feedOptions: {
@@ -87,6 +90,27 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'portfolio',
+        path: 'docs',
+        routeBasePath: 'docs',
+        sidebarPath: require.resolve('./sidebarsPortfolio.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'about',
+        path: 'about',
+        routeBasePath: 'about',
+        sidebarPath: require.resolve('./sidebarsAbout.js'),
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -100,8 +124,16 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            // type: 'aboutSidebar',
+            // sidebarId: 'aboutSidebar',
+            to: '/about',
+            position: 'left',
+            label: 'About',
+          },
+          {
+            // type: 'docSidebar',
+            // sidebarId: 'tutorialSidebar',
+            to: 'docs/intro',
             position: 'left',
             label: 'Portfolio',
           },
@@ -133,7 +165,7 @@ const config = {
             items: [
               {
                 label: 'About',
-                to: '/docs/about',
+                to: '/about',
               },
               {
                 label: 'Portfolio',
@@ -149,16 +181,12 @@ const config = {
             title: 'Links',
             items: [
               {
-                label: 'LinkedIn',
+                label: 'Connect on LinkedIn',
                 href: 'https://www.linkedin.com/in/alison-combes',
               },
               {
-                label: 'Notion CV',
-                href: 'https://lc.cx/OC6VJh',
-              },
-              {
-                label: 'Calendly',
-                href: 'https://calendly.com/alison-combes',
+                label: 'Book a Discovery Call',
+                href: 'https://calendly.com/alison-combes/connect',
               },
             ],
           },
