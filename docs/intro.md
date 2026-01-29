@@ -1,25 +1,19 @@
 ---
 sidebar_position: 1
 title: Introduction
-description: Introduction to the portfolio site by freelance technical writer, Alison Combes.
+description: 'Portfolio of technical writing samples: user guides, API docs, and developer content for SaaS products. See my approach to structured, clear documentation.'
 ---
 
-# Welcome to My Portfolio Project  
+This site showcases my technical writing work and demonstrates how I think about documentation. 
 
-*A hands-on demonstration of how I approach technical documentation.*
+I designed and built it using Docusaurus, a static site generator popular with developer teams. The goal was to create something structured, navigable, and developer-friendly—the same principles I apply to client projects.
 
-As a freelance **technical writer** with experience using React and Markdown, I built this site to explore **Docusaurus**, experiment with developer-focused tooling, and showcase my ability to create structured, navigable, and developer-friendly content.
-
-This project gave me the opportunity to apply those skills in a real-world context. I designed and built a modern documentation site from the ground up.
-
-Feel free to explore. The layout, organization, and tone are all intentional: focused on **usability**, clarity, and a strong developer experience.
-
-If you're looking for a writer who can deliver **concise**, technically accurate documentation that integrates smoothly into your workflow, I’d love to connect.
+Browse the samples, explore the structure, or read more about my process. If you're looking for a technical writer who understands developer workflows and can deliver accurate, well-organized documentation, let's talk.
 
 ---
+<!-- Non markdown heading = hidden from table of contents -->
+<h2>Where to Start</h2>
 
-## Where to Start?
-
-- Curious about who I am? Head to the **[About Me](../docs/about)** section.  
-- Want to see samples? Visit the **[Portfolio](../docs/portfolio)**. _(work in progress)_
-- Or dip into the **[FAQs](../faqs)**.
+- Learn more about my background and approach: [About](../about)
+- See writing samples: [Portfolio](../docs/portfolio)
+- Have questions? Check the [FAQs](../faqs)
