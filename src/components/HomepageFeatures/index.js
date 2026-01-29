@@ -4,38 +4,37 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Clear, User-Focused Content',
-    Svg: require('@site/static/img/undraw_user-flow_d1ya.svg').default,
+    title: 'Reduced Support Load',
+    Svg: require('@site/static/img/undraw_ai-answers_uxgx.svg').default,
     description: (
       <>
-        I write clear, accessible documentation that helps users succeed, 
-        from onboarding to advanced tasks.
+        Self-service guides and FAQs that answer common questions before users ask,
+        freeing your team to focus on complex issues.
       </>
     ),
   },
   {
-    title: 'Efficient Collaboration',
-    Svg: require('@site/static/img/undraw_notebook_8ihb.svg').default,
+    title: 'Built for Global Users',
+    Svg: require('@site/static/img/undraw_world_bdnk.svg').default,
     description: (
       <>
-        I work closely with engineers, designers, and subject matter experts 
-        to create docs that reflect real user needs.
+        Clear, accessible docs written with non-native English speakers in mind.
+        Perfect for international teams and multilingual markets.
       </>
     ),
   },
   {
-    title: 'Content That Scales',
-    Svg: require('@site/static/img/undraw_body-text_b6qq.svg').default,
+    title: 'Fast, Collaborative, Scalable',
+    Svg: require('@site/static/img/undraw_stepping-up_i0i7.svg').default,
     description: (
       <>
-        From style guides to structured content models, 
-        I help build documentation that's maintainable and scalable.
+        I work with your engineers to document features as you ship, and build systems that scale as your product and team grow.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -53,7 +52,6 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <Heading as="h2" className="text--center">What I Bring to Your Team</Heading>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
