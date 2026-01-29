@@ -4,10 +4,11 @@ import clsx from 'clsx';
 import styles from './faqs.module.css';
 import faqsData from '../components/FaqsPage/faqsData';
 
+
 export default function FAQs() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [showMobileSidebar, setShowMobileSidebar] = useState(false);
+  // const [showMobileSidebar, setShowMobileSidebar] = useState(false);
 
   const categories = ['All', ...Array.from(new Set(faqsData.map(faq => faq.category)))];
 
@@ -20,11 +21,12 @@ export default function FAQs() {
   });
 
   return (
-    <Layout title="FAQs" description="Frequently Asked Questions">
+    <Layout title="Frequently Asked Questions" description="Common questions about working with a freelance technical writer. Process, tools, turnaround times, and availability for SaaS documentation projects.">
       <main className={clsx('customContainer container', styles.main)}>
         <div className={styles.grid}>
 
-          <button
+          {/* Removed as too few categories to require this */}
+          {/* <button
             className={styles.toggleButton}
             onClick={() => setShowMobileSidebar(prev => !prev)}
             aria-expanded={showMobileSidebar}
@@ -60,7 +62,7 @@ export default function FAQs() {
                 ))}
               </ul>
             </nav>
-          </aside>
+          </aside> */}
 
           <section className={styles.content}>
             <h1>Frequently Asked Questions</h1>
