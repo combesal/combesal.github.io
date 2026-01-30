@@ -2,9 +2,8 @@ alison:
   name: Alison Combes
   title: Technical Writer
   url: https://linkedin.com/in/alison-combes
-  image: https://github.com/combesal.png
+  image_url: https://github.com/combesal.png
   page: true
   socials:
     linkedin: alison-combes
     github: combesal
-    CV: https://lc.cx/OC6VJh

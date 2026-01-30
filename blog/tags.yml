@@ -33,6 +33,21 @@ documentation:
   permalink: /documentation
   description: Documentation tag description
 
+knowledge-base:
+  label: 'knowledge-base'
+  permalink: /knowledge-base
+  description: Knowledge base tag description
+  
+saas:
+  label: 'SaaS'
+  permalink: /saas
+  description: SaaS tag description
+
+customer-support:
+  label: 'customer support'
+  permalink: /customer-support
+  description: Customer support tag description
+
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus
