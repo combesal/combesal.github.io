@@ -2,11 +2,145 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://combesal.github.io/blog</id>
     <title>Alison Combes - Technical Writer Blog</title>
-    <updated>2025-11-13T00:00:00.000Z</updated>
+    <updated>2026-01-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://combesal.github.io/blog"/>
     <subtitle>Alison Combes - Technical Writer Blog</subtitle>
     <icon>https://combesal.github.io/img/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[How Docs Can Save Your Overloaded SaaS Support Team]]></title>
+        <id>https://combesal.github.io/blog/docs-save-overloaded-support-team</id>
+        <link href="https://combesal.github.io/blog/docs-save-overloaded-support-team"/>
+        <updated>2026-01-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn why SaaS support teams drown in tickets despite having documentation, and discover the four common failure modes that prevent docs from actually helping.]]></summary>
+        <content type="html"><![CDATA[<p>Your SaaS company is scaling fast: your Series A just closed, you've tripled your customer base in six months, and you’ve hired 20 people just to keep up. But your support team is drowning in tickets, and your documentation is either non-existent or a mess of scattered pages.</p>
+<p>Let’s look at why your documentation isn’t scaling as fast as your business.
+There are four common ways your docs are failing. I'll walk you through each problem, show you what kind of documentation actually scales with your growth, and provide an action plan you can start implementing this week.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-snowball-effect">The snowball effect<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#the-snowball-effect" class="hash-link" aria-label="Direct link to The snowball effect" title="Direct link to The snowball effect" translate="no">​</a></h2>
+<p>Maybe you’re familiar with this scenario?</p>
+<ul>
+<li class="">Your support team is overwhelmed.</li>
+<li class="">Your first contact resolution rate is plummeting.</li>
+<li class="">Your users are frustrated and impatient.</li>
+<li class="">Everything feels like it’s spiralling out of control.</li>
+</ul>
+<p>It’s not just external. Internally, your team is struggling too. Developers are constantly interrupted by repeated questions, onboarding new hires takes weeks instead of days, and knowledge is locked away in your employees’ heads, unshared.</p>
+<p>On top of all this chaos, each ticket is costing you money to resolve. You’re now wondering if you’re able to increase the size of your support team, but user questions are multiplying faster than you can onboard new hires.</p>
+<p>Direct costs aren't your only concern either; poor support experiences drive churn. Your small support team can't be personally available for everyone all the time, but expectations are increasingly more demanding. A <a href="https://blog.hubspot.com/service/state-of-service-report" target="_blank" rel="noopener noreferrer" class="">2024 HubSpot report</a> reveals that 90% of customers expect an immediate response to their questions (within 10 minutes or less), while <a href="https://cxtrends.zendesk.com/#trend-2" target="_blank" rel="noopener noreferrer" class="">Zendesk’s most recent study</a> shows that nearly three-quarters of consumers expect customer service to be available 24/7.</p>
+<p><a href="https://blog.hubspot.com/service/statistics-on-customer-retention" target="_blank" rel="noopener noreferrer" class="">According to HubSpot</a>, 67% of customer churn is preventable by resolving issues during the first interaction. When your support team is overwhelmed, first-contact resolution suffers, and customers leave.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="self-service-your-247-support-team">Self-Service: your 24/7 support team<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#self-service-your-247-support-team" class="hash-link" aria-label="Direct link to Self-Service: your 24/7 support team" title="Direct link to Self-Service: your 24/7 support team" translate="no">​</a></h2>
+<p>Your users can have access to 24/7 support without needing a round-the-clock support team. According to <a href="https://www.zendesk.com/sg/blog/customer-service-and-lifetime-customer-value/%20" target="_blank" rel="noopener noreferrer" class="">Zendesk's 2023 report</a>, 98% of customers use self-service online resources, with 80% often consulting these options before contacting customer service. While there will always be users who need help, self-service documentation empowers them to find solutions on their own.</p>
+<p><a href="https://www.lotusthemes.com/blogs/best-help-centers/how-to-reduce-support-tickets-by-26-after-help-center-redesign-buffer-case-study" target="_blank" rel="noopener noreferrer" class="">Buffer reduced support ticket volume</a> by using a Zendesk feature that suggests related help articles during the help request process. Redesigning their help centre reduced support tickets by 26%.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="just-having-documentation-isnt-enough">Just ‘having documentation’ isn't enough<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#just-having-documentation-isnt-enough" class="hash-link" aria-label="Direct link to Just ‘having documentation’ isn't enough" title="Direct link to Just ‘having documentation’ isn't enough" translate="no">​</a></h2>
+<p>Documentation reduces the need for direct human input, especially for repetitive and common questions. This gives your support team more time to focus on any previously undetected issues that come up. It’s not just a case of ‘having docs’ though.</p>
+<p>Here are four common reasons documentation fails to deliver results and ways to prevent them:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="missing-or-incomplete-content">Missing or incomplete content<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#missing-or-incomplete-content" class="hash-link" aria-label="Direct link to Missing or incomplete content" title="Direct link to Missing or incomplete content" translate="no">​</a></h3>
+<p>Missing information means that your users only have access to help through your employees, who are handling requests about every little detail. A common mistake is documenting only the standard flow or <a href="https://dictionary.cambridge.org/dictionary/english/happy-path" target="_blank" rel="noopener noreferrer" class="">happy path</a>. Missing potential issues or alternative user journeys can leave your users stuck when they encounter problems.</p>
+<p>The reality is that your support team knows these details inside out; they just haven’t been documented. A lack of maintenance workflows or an ownership system means that no one takes responsibility for updates. Or your team is too busy fighting fires to check the state of the documentation. Often, though, if your users can’t find answers, they’ll either contact support for help or just leave quietly for a product they understand better.</p>
+<p>In contrast, including these cases in your help documentation enables and empowers your users to find answers quickly on their own. This also frees your team to focus on more complicated issues while improving customer satisfaction.</p>
+<p>Here are some useful questions to ask when checking for gaps in your docs:</p>
+<ul>
+<li class=""><strong>Focus</strong> – Do your user guides answer real questions that your users are asking?</li>
+<li class=""><strong>Error messages</strong> – Do users understand why they received an error? Is a solution provided in the user interface (UI)?</li>
+<li class=""><strong>Edge cases</strong> – Are your docs written from the right perspective? Do they require prior knowledge? Not everyone fits in the same box. Users often use tools differently to how they are expected to, also known as <a href="https://thegood.com/insights/digital-desire-paths/" target="_blank" rel="noopener noreferrer" class="">desire paths</a>.</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="A paved path turning left marked design and a well-worn path cutting a shortcut marked user experience." src="https://combesal.github.io/assets/images/desire-path-921890a183950363ad188c0879f056f9.jpg" width="749" height="392" class="img_ev3q">
+<em>Desire paths as a metaphor for user experience and design by Natalia Klishina</em></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="irrelevant-content">Irrelevant content<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#irrelevant-content" class="hash-link" aria-label="Direct link to Irrelevant content" title="Direct link to Irrelevant content" translate="no">​</a></h3>
+<p>On the other hand, too much information can cause confusion for your users, especially if not everything is useful. Maintaining documentation can take time, especially if it wasn’t built for easy maintenance: no templates or standards, lack of ownership, multiple pages with conflicting information. Organising your docs with <a href="https://www.figma.com/resource-library/what-is-information-architecture/#best-practices-for-information-architects" target="_blank" rel="noopener noreferrer" class="">information architecture (IA) best practices</a> will help your users find the right content, and your team maintain it more easily.</p>
+<p>This is also where knowing your audience is essential. User documentation needs to reach both beginners <em>and</em> expert users. Structuring your support content will help each user type find what they’re looking for, whether skimming for a specific topic or reading word-for-word to gain a full understanding.</p>
+<p>Creating templates for your different documentation types enforces a set structure that guides your users. We naturally recognise patterns. When pages follow a consistent structure, our brain recognises how the elements are laid out. This eases the mental effort needed to process the information, helping us navigate faster.</p>
+<p>Think of it like an IKEA floor layout: there’s a preset order with clear signage (and even arrows showing the expected flow!). Whether you’re at your local store in Paris or visiting IKEA in Geneva, you know you’ll easily find the kitchenware or bedroom furniture. In the same way, users will recognise the structure in your quick start guides or troubleshooting steps, helping them find their answers more easily.</p>
+<p>You can use these points to check if your content is relevant to users:</p>
+<ul>
+<li class=""><strong>Search</strong> – Can your users find the answers they need, or do they waste time searching? Your search tool may not be intuitive.</li>
+<li class=""><strong>Structure</strong> – Are your help pages structured? Does the navigation have a clear, consistent organisation for good usability?</li>
+<li class=""><strong>Maintenance</strong> – Who is responsible for updating documentation? Should this be assigned to an individual or a team?</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="outdated-content">Outdated content<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#outdated-content" class="hash-link" aria-label="Direct link to Outdated content" title="Direct link to Outdated content" translate="no">​</a></h3>
+<p>Let’s be honest, things move quickly, and keeping documentation current is challenging. This is especially true during rapid product development.</p>
+<p>Integrating good documentation practices from the start helps reduce the effort for documenting new products and features. When documentation evolves alongside innovation, it becomes more than an afterthought when support tickets start flooding in.</p>
+<p>There are many techniques that help companies keep track of changes in their documentation. Here are some examples to get you started:</p>
+<ul>
+<li class=""><strong>Version control</strong> – you don’t need a complicated setup or tech skills to track versions. Confluence, Notion and Google Docs all allow you to view a history of changes.</li>
+<li class=""><strong>Ownership</strong> – Assigning who is responsible for documentation maintenance prevents it from being forgotten by establishing clear accountability.</li>
+<li class=""><strong>Workflow integration</strong> – An ideal time to check that documentation matches the features is when developers update the code. You can use a docs checklist before deploying code updates to keep on top of changes and new feature docs.</li>
+<li class=""><strong>Feedback loops</strong> – Make updates based on recurring support tickets, social media, or customer feedback forms. User input is essential for understanding their pain points.</li>
+<li class=""><strong>Review cycles</strong> – Scheduling regular documentation reviews will help catch outdated content. Organise a timeline that fits with your team’s availability and project needs.</li>
+<li class=""><strong>Docs culture</strong> – Train all teams to make docs, not just one person or department. Provide tools like templates and guidance to encourage consistency.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="hidden-content">Hidden content<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#hidden-content" class="hash-link" aria-label="Direct link to Hidden content" title="Direct link to Hidden content" translate="no">​</a></h3>
+<p>Documentation that no one can find is documentation that no one can use. Do you know if your users can find the information they need? If your support team is fielding questions that are already answered somewhere in your knowledge base, then it’s likely they simply can’t find them.</p>
+<p>There could be many reasons why your users struggle to find the right answers. Documentation links might be too subtle, for example just a help link in the footer, or buried under several layers of navigation. It could be that the help pages don’t come up in the search because they aren’t relevant to the users’ search terms or are hidden behind a login or a paywall.</p>
+<p>Here’s what you can do about this:</p>
+<ul>
+<li class=""><strong>Display prominently</strong> – Make documentation findable when it’s needed: clearly link help docs directly from your product or site. Check user access - do your docs require authentication or a subscription? Fix any broken links.</li>
+<li class=""><strong>Structure logically</strong> – Categorise your documentation based on user needs: quick start guides, how-to articles, troubleshooting pages, FAQs. Avoid fragmentation by keeping the same topics together.</li>
+<li class=""><strong>Organise clearly</strong> –  Create intuitive navigation with clear labels, avoid nested pages, and keep menu levels to a minimum.</li>
+<li class=""><strong>Enable search</strong> – Being able to search makes a huge difference in helping users pinpoint the information they need faster. Add a search functionality that uses keywords your users actually use.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="types-of-documentation-and-when-to-use-them">Types of documentation and when to use them<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#types-of-documentation-and-when-to-use-them" class="hash-link" aria-label="Direct link to Types of documentation and when to use them" title="Direct link to Types of documentation and when to use them" translate="no">​</a></h2>
+<p>Now we’ve explored what makes good documentation, we’ll look at the types of documentation that exist and how each can help support your users.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="knowledge-base">Knowledge Base<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#knowledge-base" class="hash-link" aria-label="Direct link to Knowledge Base" title="Direct link to Knowledge Base" translate="no">​</a></h3>
+<p>This is a searchable collection of self-service articles, centralised in one place with structured navigation. It encompasses the different types of customer-facing documentation, such as tutorials, FAQs, troubleshooting guides, and in-app help.</p>
+<p>A well-organised knowledge base directly addresses the problem of hidden content; everything users need is centralised and searchable.</p>
+<p><strong>Impact:</strong> A knowledge base helps reduce support volume while improving SEO, or Google search visibility (if public, not gated behind a paywall).</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="quick-start-guides">Quick Start Guides<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#quick-start-guides" class="hash-link" aria-label="Direct link to Quick Start Guides" title="Direct link to Quick Start Guides" translate="no">​</a></h3>
+<p>Often the first point of call for most users, these pages contain sets of brief, minimal steps required for first-time setups and configuration. They are often used during free trial periods and product onboarding.</p>
+<p>These guides fill a critical gap in missing content. For example, many users often wonder ”Now what?” after signing up.</p>
+<p><strong>Impact:</strong> These guides can help convert prospective users into paying customers by helping them onboard easily and see value quickly.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="user-guides">User Guides<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#user-guides" class="hash-link" aria-label="Direct link to User Guides" title="Direct link to User Guides" translate="no">​</a></h3>
+<p>From general step-by-step to advanced feature instructions, user guides cover a range of different knowledge levels. They are typically characterised by simple, active language and task-focused steps. Visuals like product screenshots are often used to help users understand context.</p>
+<p>The task-focused nature of user guides helps users avoid irrelevant information while providing key how-to details that are often missing.</p>
+<p><strong>Impact:</strong> These guides are usually part of your users’ self-service options, helping reduce support ticket volume. They can also help prevent churn by improving user experience.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="troubleshooting--faqs">Troubleshooting / FAQs<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#troubleshooting--faqs" class="hash-link" aria-label="Direct link to Troubleshooting / FAQs" title="Direct link to Troubleshooting / FAQs" translate="no">​</a></h3>
+<p>These problem-focused articles help users identify and solve issues quickly and independently. They often follow a set format, first presenting the problem, explaining briefly the cause and leading users in resolving this issue through logical steps. This is ideal for helping solve commonly recurring issues, which can be used before contacting support.</p>
+<p>These docs document edge cases and errors, which are often missing in other formats. Using problem-first language also makes them easier for users to find.</p>
+<p><strong>Impact:</strong> Fast, easy-access to problem resolutions improves both user experience and product reputation.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="taking-action">Taking action<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#taking-action" class="hash-link" aria-label="Direct link to Taking action" title="Direct link to Taking action" translate="no">​</a></h2>
+<p>This article covers many different aspects of documentation, which might feel overwhelming, especially if you’re already swamped by support tickets. Just remember, you don't need to fix everything at once: start with just one problem and work from there. And if you don’t have any documentation tools, don’t let that stop you. Start with accessible tools for now, like Google Docs, Notion or Confluence, then migrate to dedicated software as you grow, if necessary.</p>
+<p>Below is an example action plan to strategically implement improvements to your documentation:</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-1-1-week">Phase 1 (1 week)<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#phase-1-1-week" class="hash-link" aria-label="Direct link to Phase 1 (1 week)" title="Direct link to Phase 1 (1 week)" translate="no">​</a></h3>
+<p>If you’re not sure where to start, I find the best place is with your users. After all, the main aim of documentation is to improve user experience. Whether you use an Excel spreadsheet, a Jira board, or Zendesk, look through all of your customer support requests over the past 3-6 months.</p>
+<p><strong>Timeframe</strong><br>
+<strong>Small teams:</strong> 1-2 hours skimming issues to spot repetition<br>
+<strong>Larger teams:</strong> 4-6 hours for greater ticket volume</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-2-1-2-weeks">Phase 2 (1-2 weeks)<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#phase-2-1-2-weeks" class="hash-link" aria-label="Direct link to Phase 2 (1-2 weeks)" title="Direct link to Phase 2 (1-2 weeks)" translate="no">​</a></h3>
+<p>Categorise common or recurring issues, whether they’ve been resolved or not. This task should help you understand where your users tend to get stuck the most. Select up to three issues that are the most urgent (biggest impact for your users) or easiest to fix.</p>
+<p><strong>Timeframe</strong><br>
+<!-- -->Small teams: 2-3 hours for clear, focused docs
+Larger teams: 5-8 hours, allowing for reviews and approval with company documentation standards</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-3-ongoing">Phase 3 (ongoing)<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#phase-3-ongoing" class="hash-link" aria-label="Direct link to Phase 3 (ongoing)" title="Direct link to Phase 3 (ongoing)" translate="no">​</a></h3>
+<p>Monitor the impact to see how your documentation helps users. Create feedback loops and track weekly ticket trends to see if the same issues are still raised after creating docs. Find the latest, most common questions. Continue making regular improvements based on the data.</p>
+<p><strong>Timeframe</strong><br>
+<!-- -->Small teams: 1-3 hours per month<br>
+<!-- -->Larger teams: 3-6 hours per month</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="results">Results<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#results" class="hash-link" aria-label="Direct link to Results" title="Direct link to Results" translate="no">​</a></h3>
+<p>Within just a few weeks of updating or creating documentation for those first three recurring issues, you should see a noticeable drop in related tickets. You’ll also find that issue resolutions are faster for these areas, and your team can benefit by referencing the docs instead of scouring through old tickets and emails for answers.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="improved-support-scaling-through-documentation">Improved support scaling through documentation<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#improved-support-scaling-through-documentation" class="hash-link" aria-label="Direct link to Improved support scaling through documentation" title="Direct link to Improved support scaling through documentation" translate="no">​</a></h2>
+<p>Poor or non-existent documentation leads to higher user effort and confusion. These bad experiences lead to product abandonment and churn. Documentation is a key strategy to scaling your customer service options efficiently, while also improving user satisfaction.</p>
+<p>You don’t need fancy tools or a whole team dedicated to documentation. Now you’re armed with a better understanding of what makes good documentation, various pitfalls to avoid, and an action plan for getting started.</p>
+<p>This approach works for companies with the capacity to handle it internally. However, if your team is stretched too thin, bringing in outside help can speed up the process.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="need-help-with-your-documentation">Need Help With Your Documentation?<a href="https://combesal.github.io/blog/docs-save-overloaded-support-team#need-help-with-your-documentation" class="hash-link" aria-label="Direct link to Need Help With Your Documentation?" title="Direct link to Need Help With Your Documentation?" translate="no">​</a></h2>
+<p>If your support team is drowning in tickets and your documentation isn't helping, it’s fixable.</p>
+<p>I help SaaS companies reduce support volume through clear, user-focused documentation.</p>
+<p><strong>Reserve a discovery call</strong> to discuss your documentation challenges and identify quick wins.</p>
+<p><a href="https://calendly.com/alison-combes/connect" target="_blank" rel="noopener noreferrer" class="">Book a Discovery Call</a> | <a class="" href="https://combesal.github.io/about/packages">View Services</a></p>]]></content>
+        <author>
+            <name>Alison Combes</name>
+            <uri>https://linkedin.com/in/alison-combes</uri>
+        </author>
+        <category label="SaaS" term="SaaS"/>
+        <category label="documentation" term="documentation"/>
+        <category label="customer support" term="customer support"/>
+        <category label="knowledge-base" term="knowledge-base"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Consistency Beats Perfection]]></title>
         <id>https://combesal.github.io/blog/consistency-beats-perfection</id>
@@ -17,20 +151,20 @@
 <p>It’s simple, but this is the best advice I’ve received recently: <strong>consistency beats perfection</strong>.</p>
 <p>It wasn’t even related to work; it was about exercising regularly. This can be applied to any area of life though: <strong>small, consistent actions build habits</strong> and eventually lead to meaningful results.</p>
 <p>I’m a bit of a perfectionist. Sometimes starting is hard because I want things to be perfect or overthink the steps I need to take. Focusing on consistency rather than perfection helps me make progress, even if I don’t get it just right the first time.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-im-applying-it">How I’m applying it<a href="https://combesal.github.io/blog/consistency-beats-perfection#how-im-applying-it" class="hash-link" aria-label="Direct link to How I’m applying it" title="Direct link to How I’m applying it">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-im-applying-it">How I’m applying it<a href="https://combesal.github.io/blog/consistency-beats-perfection#how-im-applying-it" class="hash-link" aria-label="Direct link to How I’m applying it" title="Direct link to How I’m applying it" translate="no">​</a></h2>
 <p>To apply this to my work as a tech writer, I’m working on making certain habits more consistent, including:</p>
 <ul>
-<li>Reviewing user guides and other documentation to see what works and what doesn’t</li>
-<li>Watching training videos or webinar replays regularly</li>
-<li>Interacting more in Slack/Discord channels</li>
-<li>Writing posts for LinkedIn and my blog to practise and develop my writing</li>
-<li>Reading tech news almost daily to stay informed</li>
+<li class="">Reviewing user guides and other documentation to see what works and what doesn’t</li>
+<li class="">Watching training videos or webinar replays regularly</li>
+<li class="">Interacting more in Slack/Discord channels</li>
+<li class="">Writing posts for LinkedIn and my blog to practise and develop my writing</li>
+<li class="">Reading tech news almost daily to stay informed</li>
 </ul>
 <p>I’m just starting to make these habits stick. This post itself is part of putting consistency into action.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-im-learning">What I’m learning<a href="https://combesal.github.io/blog/consistency-beats-perfection#what-im-learning" class="hash-link" aria-label="Direct link to What I’m learning" title="Direct link to What I’m learning">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-im-learning">What I’m learning<a href="https://combesal.github.io/blog/consistency-beats-perfection#what-im-learning" class="hash-link" aria-label="Direct link to What I’m learning" title="Direct link to What I’m learning" translate="no">​</a></h2>
 <p>Over time, these small, steady steps help me strengthen key skills: understanding user needs, spotting clarity and structure in documentation, and practising concise, user-focused writing.</p>
 <p>Progress builds gradually. You might not notice it each day, but after a month or two, the improvement becomes clear. That progress is its own reward and a reminder that steady effort pays off.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-final-thought">A final thought<a href="https://combesal.github.io/blog/consistency-beats-perfection#a-final-thought" class="hash-link" aria-label="Direct link to A final thought" title="Direct link to A final thought">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-final-thought">A final thought<a href="https://combesal.github.io/blog/consistency-beats-perfection#a-final-thought" class="hash-link" aria-label="Direct link to A final thought" title="Direct link to A final thought" translate="no">​</a></h2>
 <p>Finally, the key to consistency is <strong>persistence</strong>. Missing a day or a week isn’t a failure. What matters is always returning to your routine and continuing the work.</p>]]></content>
         <author>
             <name>Alison Combes</name>
@@ -47,28 +181,28 @@
         <updated>2025-10-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[How I built my technical writing portfolio using Docusaurus, React, and docs-as-code principles to showcase both writing and technical skills.]]></summary>
         <content type="html"><![CDATA[<p>When I decided to build my technical writing portfolio, I wanted it to do more than just host samples. I wanted it to reflect how I think about documentation: <strong>structured, clear, and built with the same tools developers use</strong>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="choosing-the-tools">Choosing the Tools<a href="https://combesal.github.io/blog/behind-the-build-portfolio#choosing-the-tools" class="hash-link" aria-label="Direct link to Choosing the Tools" title="Direct link to Choosing the Tools">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="choosing-the-tools">Choosing the Tools<a href="https://combesal.github.io/blog/behind-the-build-portfolio#choosing-the-tools" class="hash-link" aria-label="Direct link to Choosing the Tools" title="Direct link to Choosing the Tools" translate="no">​</a></h2>
 <p>I built the site with <strong>Docusaurus</strong>, a React-based static site generator. Since I already had experience with React and Markdown, it felt like a natural fit. The framework gave me full control over layout and structure while keeping the writing process simple and efficient.</p>
 <p>I wanted the portfolio to work like a real documentation project: <strong>modular, easy to update, and reader-friendly</strong>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="designing-the-structure">Designing the Structure<a href="https://combesal.github.io/blog/behind-the-build-portfolio#designing-the-structure" class="hash-link" aria-label="Direct link to Designing the Structure" title="Direct link to Designing the Structure">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="designing-the-structure">Designing the Structure<a href="https://combesal.github.io/blog/behind-the-build-portfolio#designing-the-structure" class="hash-link" aria-label="Direct link to Designing the Structure" title="Direct link to Designing the Structure" translate="no">​</a></h2>
 <p>The site is organized like a typical documentation set:</p>
 <ul>
-<li>An <strong>Introduction</strong> to outline the project's purpose</li>
-<li>An <strong>About Me</strong> section to explain my background and writing approach</li>
-<li>A <strong>Portfolio</strong> area for samples and future projects</li>
-<li>A <strong>FAQs</strong> page built with React for interactivity and accessibility</li>
+<li class="">An <strong>Introduction</strong> to outline the project's purpose</li>
+<li class="">An <strong>About Me</strong> section to explain my background and writing approach</li>
+<li class="">A <strong>Portfolio</strong> area for samples and future projects</li>
+<li class="">A <strong>FAQs</strong> page built with React for interactivity and accessibility</li>
 </ul>
 <p>This layout keeps navigation simple and shows how I think about structure and hierarchy, which are key parts of any documentation project.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="building-for-clarity-and-usability">Building for Clarity and Usability<a href="https://combesal.github.io/blog/behind-the-build-portfolio#building-for-clarity-and-usability" class="hash-link" aria-label="Direct link to Building for Clarity and Usability" title="Direct link to Building for Clarity and Usability">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="building-for-clarity-and-usability">Building for Clarity and Usability<a href="https://combesal.github.io/blog/behind-the-build-portfolio#building-for-clarity-and-usability" class="hash-link" aria-label="Direct link to Building for Clarity and Usability" title="Direct link to Building for Clarity and Usability" translate="no">​</a></h2>
 <p>Docusaurus handles most of the design defaults, but I made some adjustments to improve readability and responsiveness, while adding a little of my own style. I focused on <strong>spacing, typography, and consistent tone</strong> across all sections.</p>
 <p>For the FAQs, I built a small React component that allows users to filter questions by category and search by keyword. It's a compact example of how <strong>interactivity can also support clarity</strong>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="publishing-the-site">Publishing the Site<a href="https://combesal.github.io/blog/behind-the-build-portfolio#publishing-the-site" class="hash-link" aria-label="Direct link to Publishing the Site" title="Direct link to Publishing the Site">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="publishing-the-site">Publishing the Site<a href="https://combesal.github.io/blog/behind-the-build-portfolio#publishing-the-site" class="hash-link" aria-label="Direct link to Publishing the Site" title="Direct link to Publishing the Site" translate="no">​</a></h2>
 <p>The site is published via <strong>GitHub Pages</strong>, which keeps updates quick and version-controlled. I wanted to keep the process as close as possible to a real documentation workflow and make use of my web development background.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-i-learned">What I Learned<a href="https://combesal.github.io/blog/behind-the-build-portfolio#what-i-learned" class="hash-link" aria-label="Direct link to What I Learned" title="Direct link to What I Learned">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-i-learned">What I Learned<a href="https://combesal.github.io/blog/behind-the-build-portfolio#what-i-learned" class="hash-link" aria-label="Direct link to What I Learned" title="Direct link to What I Learned" translate="no">​</a></h2>
 <p>This project reinforced how much I enjoy combining <strong>writing, structure, and technical problem-solving</strong>. It also reminded me that documentation is never just text: it's <strong>design, clarity, and empathy for the reader</strong>, all working together.</p>
 <hr>
 <p>If you're interested in how technical writing and development can work together, take a look at the portfolio and connect with me through LinkedIn or Calendly.</p>
-<p>👉 <strong><a href="https://combesal.github.io/docs/portfolio">View Portfolio</a></strong> | <strong><a href="https://www.linkedin.com/in/alison-combes" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a></strong> | <strong><a href="https://calendly.com/alison-combes/connect" target="_blank" rel="noopener noreferrer">Schedule a call</a></strong></p>]]></content>
+<p>👉 <strong><a class="" href="https://combesal.github.io/docs/portfolio">View Portfolio</a></strong> | <strong><a href="https://www.linkedin.com/in/alison-combes" target="_blank" rel="noopener noreferrer" class="">Connect on LinkedIn</a></strong> | <strong><a href="https://calendly.com/alison-combes/connect" target="_blank" rel="noopener noreferrer" class="">Schedule a call</a></strong></p>]]></content>
         <author>
             <name>Alison Combes</name>
             <uri>https://linkedin.com/in/alison-combes</uri>
@@ -161,10 +295,10 @@ It’s a craft built around clarity, empowerment, and trust.</p>
 But I didn’t show up empty-handed...</p>
 <p>Turns out I smuggled in some superpowers, like:</p>
 <ul>
-<li>💥 Finding clarity in the chaos</li>
-<li>💥 Making things useful, not just clear</li>
-<li>💥 Noticing the gaps others skip past</li>
-<li>💥 Holding the big picture without losing the details</li>
+<li class="">💥 Finding clarity in the chaos</li>
+<li class="">💥 Making things useful, not just clear</li>
+<li class="">💥 Noticing the gaps others skip past</li>
+<li class="">💥 Holding the big picture without losing the details</li>
 </ul>
 <p>These weren’t skills I picked up from a course.
 They came from years of working, observing, learning, and adapting.</p>
@@ -198,9 +332,9 @@ And don’t forget your superpowers!</p>
 <p>I started by studying web development and exploring a range of technologies and tools.</p>
 <p>Along the way:</p>
 <ul>
-<li>🔍 I strengthened my research skills</li>
-<li>🧠 I realised I have the ability to understand complex systems</li>
-<li>🧩 I found that I really enjoy making sense of technical information</li>
+<li class="">🔍 I strengthened my research skills</li>
+<li class="">🧠 I realised I have the ability to understand complex systems</li>
+<li class="">🧩 I found that I really enjoy making sense of technical information</li>
 </ul>
 <p>Working in tech support led me into technical writing, which turned out to be the perfect fit, combining communication, curiosity and technology in a way that really suits me.</p>
 <p>One of the things that drew me to working in tech in the first place is how quickly things evolve.
@@ -230,25 +364,25 @@ What have you learned through the process?</p>
 <p>Here’s a very quick insight into what I’ve been learning and how I’ve grown in the process:</p>
 <p><strong>Expanding Existing Skills</strong></p>
 <ul>
-<li>💡 Adaptability</li>
-<li>💡 Open-mindedness</li>
-<li>💡 Resilience</li>
-<li>💡 Creativity</li>
-<li>💡 Problem solving</li>
+<li class="">💡 Adaptability</li>
+<li class="">💡 Open-mindedness</li>
+<li class="">💡 Resilience</li>
+<li class="">💡 Creativity</li>
+<li class="">💡 Problem solving</li>
 </ul>
 <p><strong>Developing New Skills</strong></p>
 <ul>
-<li>🌱 Analytical thinking</li>
-<li>🌱 Curiosity</li>
-<li>🌱 Innovation</li>
-<li>🌱 Leadership</li>
+<li class="">🌱 Analytical thinking</li>
+<li class="">🌱 Curiosity</li>
+<li class="">🌱 Innovation</li>
+<li class="">🌱 Leadership</li>
 </ul>
 <p><strong>Expanding Horizons</strong></p>
 <ul>
-<li>🌟 Continuous learning</li>
-<li>🌟 Personal growth</li>
-<li>🌟 Increased intellectual stimulation</li>
-<li>🌟 Enriching experiences</li>
+<li class="">🌟 Continuous learning</li>
+<li class="">🌟 Personal growth</li>
+<li class="">🌟 Increased intellectual stimulation</li>
+<li class="">🌟 Enriching experiences</li>
 </ul>
 <p>Overall, changing careers hasn’t only helped me gain technical skills, it’s also prepared me to face future challenges with confidence and determination. I’m excited to keep learning and growing in this dynamic field.</p>
 <p><img decoding="async" loading="lazy" alt="Sometimes the greatest thing to come out of all your hard work isn&amp;#39;t what you get for it, but what you become for it. - Steve Maraboli" src="https://combesal.github.io/assets/images/hard-work-quote-c8e1453b3dcee8a541cac0466f607c04.jpeg" width="1200" height="1200" class="img_ev3q"></p>
