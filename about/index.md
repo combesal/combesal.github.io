@@ -10,7 +10,6 @@ I specialize in clear, user-focused documentation: user guides, onboarding conte
 
 With a background in translation, web development, and IT support, I bring a cross-disciplinary perspective to every project. I pick up new tools quickly and write with global, non-native English-speaking audiences in mind.
 
-
 ## How I Can Help
 
 - **Drive feature adoption** — Clear, step-by-step guides that help users understand new features immediately  
