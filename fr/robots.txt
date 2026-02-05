@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://combesal.github.io/sitemap.xml
