@@ -51,6 +51,16 @@ const config = {
     },
   },
 
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'google-site-verification',
+        content: 'mH8IqEmRFxm5-0YJOw37ftW82po1KLJvV2rV4sby6Ig',
+      },
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -59,7 +69,7 @@ const config = {
         docs: false,
         // {
         // sidebarPath: './sidebars.js', // removed to add separate sidebar plugins (portfolio/about)
-        
+
         // Please change this to your repo.
         // Remove this to remove the "edit this page" links.
         // editUrl:
