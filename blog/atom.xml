@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://combesal.github.io/blog</id>
-    <title>Alison Combes - Technical Writer Blog</title>
+    <title>Knowledge Systems for SaaS Teams | Alison Combes Blog</title>
     <updated>2026-01-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://combesal.github.io/blog"/>
-    <subtitle>Alison Combes - Technical Writer Blog</subtitle>
+    <subtitle>Knowledge Systems for SaaS Teams | Alison Combes Blog</subtitle>
     <icon>https://combesal.github.io/img/favicon.svg</icon>
     <entry>
         <title type="html"><![CDATA[How Docs Can Save Your Overloaded SaaS Support Team]]></title>
@@ -344,48 +344,6 @@ As a writer, I’m constantly learning — keeping up with new tools and systems
 <p>👉 Have you made a career change, or are you thinking about it?
 What have you learned through the process?</p>
 <p><img decoding="async" loading="lazy" alt="View from a small sailboat at sea during sunrise." src="https://combesal.github.io/assets/images/sailing-to-horizon-f0ef228142cd59ddf7cc5b37523fe9cc.jpeg" width="1023" height="1023" class="img_ev3q"></p>
-<p><em>Note: originally posted to LinkedIn</em></p>]]></content>
-        <author>
-            <name>Alison Combes</name>
-            <uri>https://linkedin.com/in/alison-combes</uri>
-        </author>
-        <category label="career change" term="career change"/>
-        <category label="professional development" term="professional development"/>
-        <category label="learning journey" term="learning journey"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hard Work]]></title>
-        <id>https://combesal.github.io/blog/2024/04/09/hard-work</id>
-        <link href="https://combesal.github.io/blog/2024/04/09/hard-work"/>
-        <updated>2024-04-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[⏳ Given the amount of time we spend at work, it's no surprise that many people seek increased fulfilment in their professional lives by changing careers.]]></summary>
-        <content type="html"><![CDATA[<p>⏳ Given the amount of time we spend at work, it's no surprise that many people seek increased fulfilment in their professional lives by changing careers.</p>
-<p>My own transition into web development has been a transformative and enriching experience, so I’d say this quote sums up my career change journey pretty well.</p>
-<p>Here’s a very quick insight into what I’ve been learning and how I’ve grown in the process:</p>
-<p><strong>Expanding Existing Skills</strong></p>
-<ul>
-<li class="">💡 Adaptability</li>
-<li class="">💡 Open-mindedness</li>
-<li class="">💡 Resilience</li>
-<li class="">💡 Creativity</li>
-<li class="">💡 Problem solving</li>
-</ul>
-<p><strong>Developing New Skills</strong></p>
-<ul>
-<li class="">🌱 Analytical thinking</li>
-<li class="">🌱 Curiosity</li>
-<li class="">🌱 Innovation</li>
-<li class="">🌱 Leadership</li>
-</ul>
-<p><strong>Expanding Horizons</strong></p>
-<ul>
-<li class="">🌟 Continuous learning</li>
-<li class="">🌟 Personal growth</li>
-<li class="">🌟 Increased intellectual stimulation</li>
-<li class="">🌟 Enriching experiences</li>
-</ul>
-<p>Overall, changing careers hasn’t only helped me gain technical skills, it’s also prepared me to face future challenges with confidence and determination. I’m excited to keep learning and growing in this dynamic field.</p>
-<p><img decoding="async" loading="lazy" alt="Sometimes the greatest thing to come out of all your hard work isn&amp;#39;t what you get for it, but what you become for it. - Steve Maraboli" src="https://combesal.github.io/assets/images/hard-work-quote-c8e1453b3dcee8a541cac0466f607c04.jpeg" width="1200" height="1200" class="img_ev3q"></p>
 <p><em>Note: originally posted to LinkedIn</em></p>]]></content>
         <author>
             <name>Alison Combes</name>
