@@ -1,19 +1,11 @@
 ---
 sidebar_position: 1
 title: Introduction
-description: 'Portfolio of technical writing samples: user guides, API docs, and developer content for SaaS products. See my approach to structured, clear documentation.'
+description: 'Work samples and case studies from knowledge systems projects for SaaS teams. See how structure, clarity, and good information architecture reduce support load and improve onboarding.'
 ---
 
-This site showcases my technical writing work and demonstrates how I think about documentation. 
+This site is built with Docusaurus, a static site generator used by many developer teams. The structure, navigation, and content reflect how I think about information design, built with the same tools and process I bring to client projects.
 
-I designed and built it using Docusaurus, a static site generator popular with developer teams. The goal was to create something structured, navigable, and developer-friendly—the same principles I apply to client projects.
+Browse the samples to see how I approach knowledge problems: how content is structured, how gaps are identified, and how information is organised for the people who actually need to use it.
 
-Browse the samples, explore the structure, or read more about my process. If you're looking for a technical writer who understands developer workflows and can deliver accurate, well-organized documentation, let's talk.
-
----
-<!-- Non markdown heading = hidden from table of contents -->
-<h2>Where to Start</h2>
-
-- Learn more about my background and approach: [About](../about)
-- See writing samples: [Portfolio](../docs/portfolio)
-- Have questions? Check the [FAQs](../faqs)
+If what you see looks like what your team needs, [let's talk](https://calendly.com/alison-combes/connect).

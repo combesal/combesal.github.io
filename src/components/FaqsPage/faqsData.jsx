@@ -20,69 +20,63 @@ import Link from '@docusaurus/Link';
 const faqs = [
 
   {
-    category: "Working Together",
-    question: "What kind of projects do you take on?",
+    category: "Before Working Together",
+    question: "Where do I start?",
     answer:
-      "I focus on SaaS documentation, developer tools, and API references for startups and scale-ups (10-50 employees). I also help teams audit and restructure existing docs.",
-  },
-    {
-    category: "Working Together",
-    question: "How does billing work?",
-    answer:
-      "I work through an umbrella company (portage salarial) in France, which handles invoicing and contracts. You'll receive professional invoices and clear payment terms.",
+      "Most engagements start with a Knowledge Audit: a structured review of what exists, what's missing, and what to prioritise. If you're not sure what you need, that's the right first step. [Book a discovery call] to talk it through.",
+    jsx:
+      <>Most engagements start with a Knowledge Audit: a structured review of what exists, what's missing, and what to prioritise. If you're not sure what you need, that's the right first step. <Link to='https://calendly.com/alison-combes/connect'>Book a discovery call</Link> to talk it through.</>,
   },
   {
-    category: "Working Together",
-    question: "Can you help organize or restructure existing content?",
+    category: "Before Working Together",
+    question: "What size teams do you work with?",
     answer:
-      "If your docs are messy, outdated, or hard to navigate, I can audit, restructure, and improve them. Book a call to discuss your needs.",
-      jsx:
-      <>If your docs are messy, outdated, or hard to navigate, I can audit, restructure, and improve them. <Link to='https://calendly.com/alison-combes/connect'>Book a call</Link> to discuss your needs.</>,
+      "Typically SaaS startups and scaleups between 10 and 100 people, teams that are growing fast enough for knowledge gaps to become a real problem but don't yet have a dedicated knowledge function.",
   },
   {
-    category: "Working Together",
-    question: "What’s your usual process?",
-    answer: "Every project starts with a discovery call to understand your needs. From there, I research, draft, and collaborate with your team to deliver clear, accurate documentation. Details vary by package - see Packages & Processes.",
+    category: "Before Working Together",
+    question: "Do you only work in English?",
+    answer:
+      "No. I work in both English and French and have experience writing for international teams and non-native English speakers.",
+  },
+  {
+    category: "How It Works",
+    question: "What does a typical project look like? ",
+    answer: "Every project starts with a discovery call to understand your situation. From there, scope and timeline are confirmed before anything starts. See [Packages] for what's included in each engagement.",
     jsx:
       <>
-        Every project starts with a discovery call to understand your needs. From there, I research, draft, and collaborate with your team to deliver clear, accurate documentation. Details vary by package - see <Link to="about/packages">Packages & Processes</Link>.
+       Every project starts with a discovery call to understand your situation. From there, scope and timeline are confirmed before anything starts. See <Link to="about/packages">Packages</Link> for what's included in each engagement..
       </>,
   },
   {
-    category: "Working Together",
-    question: "What tools do you use?",
+    category: "How It Works",
+    question: "How do revisions work?",
     answer:
-      "I work with Confluence, Markdown, Git, Jira, Docusaurus, and Google Docs. I adapt quickly to your existing stack.",
+      "Each project includes a defined number of revision rounds. A revision round means one batch of consolidated written feedback, addressed in one pass. Iterative back-and-forth is not included by default but can be discussed at kickoff.",
   },
   {
-    category: "About Me",
-    question: "Where are you based? Do you work remotely or on site?",
+    category: "How It Works",
+    question: "What tools do you work with?",
     answer:
-      "I'm based in southern France and work fully remotely. I'm open to hybrid arrangements for the right project.",
+      "Confluence, Notion, Docusaurus, Markdown, Git, Jira, and Google Docs. I adapt to your existing stack rather than asking you to change it.",
   },
   {
-    category: "Working Together",
-    question: "What’s your turnaround time like?",
+    category: "Practical Details",
+    question: "Where are you based?",
     answer:
-      "Turnaround depends on scope, but most projects range from 1–4 weeks. I'll give you a clear timeline during our discovery call.",
+      "Southern France, working fully remotely with teams across Europe and beyond.",
   },
   {
-    category: "About Me",
-    question: "Can you work with international or multilingual teams?",
-    answer:
-      "Yes. I write with global teams and non-native English speakers in mind, and I'm fluent in French for collaboration or localization support.",
-  },
-  {
-    category: "Working Together",
+    category: "Practical Details",
     question: "Do you sign NDAs?",
     answer:
-      "Yes. I'm happy to sign NDAs and confidentiality agreements to protect your product information and unreleased features. This can be discussed during the discovery call.",
+      "Yes. I'm happy to sign NDAs and confidentiality agreements before any sensitive information is shared.",
   },
   {
-    category: "Working Together",
-    question: "How do you handle feedback or revisions?",
+    category: "Practical Details",
+    question: "How do you invoice?",
     answer:
-      "Feedback is part of the process. I collaborate closely with your team to ensure the final docs are accurate, clear, and useful.",
+      "Through a professional structure in France. You receive proper invoices with clear payment terms.",
   },
 ];
 
