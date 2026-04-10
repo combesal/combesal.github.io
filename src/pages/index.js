@@ -13,14 +13,14 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          When SaaS teams scale fast,<br />knowledge breaks first.
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">I help SaaS teams structure their knowledge before growth breaks it.</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="https://calendly.com/alison-combes/connect">
-            Book a discovery call
+            Book a call
           </Link>
         </div>
       </div>
@@ -33,9 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Alison Combes - Technnical Writer.Clear, user-focused technical content, written to make complex ideas simple.
-
-">
+      description="Helping SaaS teams structure their knowledge so onboarding is faster, support load decreases, and work stops depending on who's available. Based in France, working across Europe.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

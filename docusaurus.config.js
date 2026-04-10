@@ -10,8 +10,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Alison Combes - Technical Writer',
-  tagline: 'Documentation that helps SaaS users succeed without flooding your support team.',
+  title: 'Knowledge Systems for SaaS Teams | Alison Combes',
+  tagline: 'Structured knowledge systems for SaaS teams. Based in France, working across Europe.',
   favicon: 'img/favicon.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
